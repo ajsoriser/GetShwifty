@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Homework" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9YG-KW-npL">
+                                <rect key="frame" x="169" y="336" width="37" height="30"/>
+                                <state key="normal" title="Enter"/>
+                                <connections>
+                                    <action selector="cmdEnter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rOA-qa-ZwM"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Please Enter a Name..." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V75-xH-iXk">
+                                <rect key="frame" x="75" y="299" width="224" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="HJh-ww-3bO">
+                                <rect key="frame" x="109.5" y="229" width="155" height="29"/>
+                                <segments>
+                                    <segment title="Red"/>
+                                    <segment title="Blue"/>
+                                    <segment title="Green"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segRBG:" destination="BYZ-38-t0r" eventType="valueChanged" id="ATd-k4-cXc"/>
+                                </connections>
+                            </segmentedControl>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="HbB-Ef-J5g">
+                                <rect key="frame" x="163" y="406" width="51" height="31"/>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I want to yell" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zj0-3o-TSB">
+                                <rect key="frame" x="139" y="377" width="96" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="exx-xA-nxc">
+                                <rect key="frame" x="16" y="265" width="343" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="HbB-Ef-J5g" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="07H-z9-aIB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zj0-3o-TSB" secondAttribute="bottom" constant="269" id="3p9-gF-Snl"/>
+                            <constraint firstItem="V75-xH-iXk" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="7vS-8D-leE"/>
+                            <constraint firstItem="V75-xH-iXk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="279" id="97B-Bw-AlN"/>
+                            <constraint firstItem="zj0-3o-TSB" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="9D1-BW-gud"/>
+                            <constraint firstItem="9YG-KW-npL" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="9X6-ID-T9g"/>
+                            <constraint firstItem="HJh-ww-3bO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="209" id="Cjm-b7-FO8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HbB-Ef-J5g" secondAttribute="bottom" constant="230" id="EA3-Kh-cdl"/>
+                            <constraint firstItem="V75-xH-iXk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="VSW-eK-gtX"/>
+                            <constraint firstItem="zj0-3o-TSB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="139" id="cH8-ms-U43"/>
+                            <constraint firstItem="9YG-KW-npL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="169" id="hof-Lv-ub5"/>
+                            <constraint firstItem="HJh-ww-3bO" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="nKu-3d-W2e"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9YG-KW-npL" secondAttribute="bottom" constant="301" id="x2C-Jo-bnx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="outCmdEnter" destination="9YG-KW-npL" id="eGg-9k-qCT"/>
+                        <outlet property="outLblOutput" destination="exx-xA-nxc" id="Re9-qk-zmj"/>
+                        <outlet property="outSegRBG" destination="HJh-ww-3bO" id="8rL-XW-1QT"/>
+                        <outlet property="outSwtYell" destination="HbB-Ef-J5g" id="7zH-1I-Vi8"/>
+                        <outlet property="outTxtInput" destination="V75-xH-iXk" id="tlf-gK-LGM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="118.29085457271366"/>
+        </scene>
+    </scenes>
+</document>
