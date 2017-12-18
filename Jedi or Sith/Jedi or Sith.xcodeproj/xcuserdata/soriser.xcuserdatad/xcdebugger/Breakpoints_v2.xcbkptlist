@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Jedi or Sith/ViewController.swift"
+            timestampString = "535172426.354614"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Jedi_or_Sith.ViewController.__deallocating_deinit"
+                  moduleName = "Jedi or Sith"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/soriser/Desktop/Repo/Jedi%20or%20Sith/Jedi%20or%20Sith/ViewController.swift"
+                  timestampString = "535172427.057338"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Jedi_or_Sith.ViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Jedi_or_Sith.ViewController"
+                  moduleName = "Jedi or Sith"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/soriser/Desktop/Repo/Jedi%20or%20Sith/Jedi%20or%20Sith/ViewController.swift"
+                  timestampString = "535172427.066527"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Jedi_or_Sith.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Jedi_or_Sith.ViewController"
+                  moduleName = "Jedi or Sith"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/soriser/Desktop/Repo/Jedi%20or%20Sith/Jedi%20or%20Sith/ViewController.swift"
+                  timestampString = "535172427.072111"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "77">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Jedi_or_Sith.ViewController.__allocating_init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;Jedi_or_Sith.ViewController&gt;"
+                  moduleName = "Jedi or Sith"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/soriser/Desktop/Repo/Jedi%20or%20Sith/Jedi%20or%20Sith/ViewController.swift"
+                  timestampString = "535172427.077791"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Jedi_or_Sith.ViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;Jedi_or_Sith.ViewController&gt;"
+                  moduleName = "Jedi or Sith"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/soriser/Desktop/Repo/Jedi%20or%20Sith/Jedi%20or%20Sith/ViewController.swift"
+                  timestampString = "535172427.083945"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "46">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
